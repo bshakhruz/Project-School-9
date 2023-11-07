@@ -1,0 +1,190 @@
+/* Add your custom styles here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  color: #fff;
+  padding: 1em;
+}
+
+.school-name h1 {
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 15px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 20px;
+}
+
+/* ... (Previous CSS code) */
+
+/* Styles for the footer */
+#page-footer {
+  background-color: #34495e;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* ... (Remaining CSS code) */
+
+/* ... (Previous CSS code) */
+
+/* Styles for the new sections */
+#background-photo {
+  min-height: 600px;
+  background-image: url('background-photo.jpg'); /* Add your background photo here */
+  background-size: cover;
+  background-position: center;
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#terms-education {
+  padding: 20px;
+  background-color: #f9f9f9; /* Optional background color for the section */
+}
+
+#terms-education a {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#terms-education a:hover {
+  background-color: #2980b9;
+}
+
+/* ... (Remaining CSS code) */
+
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.achievements {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.achievement-item {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.achievement-item:hover {
+  transform: scale(1.05);
+}
+
+.achievement-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.achievement-item:hover img {
+  transform: scale(1.1);
+}
+
+/* New styles for the home section background image */
+#home {
+  min-height: 850px;
+  background-image: url('School9-hd.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Style the content within the home section */
+#home .home-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#video {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 10px 0;
+  background-color: #f9f9f9; /* Optional background color for the section */
+}
+.video-container {
+  flex: 0 0 33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#video a {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#video a:hover {
+  background-color: #2980b9;
+}
